@@ -1,0 +1,169 @@
+html, body, .container {
+  height: 100%;
+}
+
+.logo {
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.imbr {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.m {
+  /* 	width: 100%;
+	height: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  /* Firefox 3.6 */
+  background-position: center bottom;
+  /* Internet Explorer 7/8 */
+  cursor: pointer;
+}
+
+.site_link h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: normal;
+  /*   font-size:36px;
+        margin-top: 48px;
+        margin-left: 18px; */
+  color: #FFF;
+  font-size: 150%;
+}
+
+.site_link a:link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.site_link a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.site_link a:visited {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.site_link a:active {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  /* padding-right: 10px; */
+  /* padding-left: 10px; */
+  border-color: #ffffff !important;
+  border: solid 6px;
+}
+
+.col-xs-15 {
+  width: 14.28571%;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .row.bg1 {
+    background-image: url(bg_ver.jpg);
+    background-position: top right;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 14.28571%;
+    float: left;
+  }
+  .row.bg1 {
+    background-image: url(bg_ver.jpg);
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 14.28571%;
+    float: left;
+  }
+  .row.bg1 {
+    background-image: url(bg_hor.jpg);
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 14.28571%;
+    float: left;
+  }
+  .row.bg1 {
+    background-image: url(bg_hor.jpg);
+    background-position: bottom;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .arrow {
+    padding-top: 150px;
+    padding-bottom: 20px;
+  }
+  .m6 .arrow {
+    padding-top: 81px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .arrow {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .arrow {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .arrow {
+    padding-top: 30px;
+    padding-bottom: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .arrow {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .arrow {
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
